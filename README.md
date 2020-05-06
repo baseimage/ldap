@@ -1,8 +1,8 @@
-## install openldap in apline 3.7
+## install openldap in apline 3.10
 
 ### run docker build
 ```shell
-docker build -t openldap:2.4.45 .
+docker build -t openldap:2.4.50 .
 ```
 ### run docker container
 link docker-compose
