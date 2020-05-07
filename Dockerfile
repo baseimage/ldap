@@ -1,6 +1,6 @@
 FROM alpine:3.10 AS builder
 
-ENV OPENLDAP_VERSION=2.4.50 DB_VERSION=5.1.29
+ENV OPENLDAP_VERSION=2.4.47 DB_VERSION=5.1.29
 
 RUN set -x \
   && apk update \
@@ -75,7 +75,7 @@ FROM alpine:3.10
 
 MAINTAINER kirin <kirin_13@163.com>
 
-ENV OPENLDAP_VERSION=2.4.50 DB_VERSION=5.1.29
+ENV OPENLDAP_VERSION=2.4.47 DB_VERSION=5.1.29
 
 RUN set -x \
   && mkdir -vp \
