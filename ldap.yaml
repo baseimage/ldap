@@ -6,7 +6,7 @@ services:
   openldap:
     container_name: openldap
     hostname: openldap.example.org
-    image: openldap:2.4.47
+    image: openldap:2.4.50
     restart: always
 #    environment:
 #      - "LDAP_BASE=dc=example,dc=com"
